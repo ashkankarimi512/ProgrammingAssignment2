@@ -1,7 +1,16 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+##
+## function: makeCacheMatrix
+## This function returns a list of function used for caching a matrix
+## and its inverse. 
+## The returned list contains: set, get, setinvMat, getInvMat
+##
+## Usage:
+##  a <- matrix( c(30, 72, 87, 96, 74, 46, 86, 85, 57), nrow=3, ncol=3)
+##  ca <- makeCacheMatrix( a )
+##  ainv <- cacheSolve( ca )
+##  ca$get()
+##  ca$getInvMat()
+## 
 
 makeCacheMatrix <- function(xmat = matrix()) {
         matInv <- NULL
