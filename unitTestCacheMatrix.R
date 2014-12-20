@@ -10,6 +10,8 @@ unitTest_CacheMatrix <- function() {
         ainv <- cacheSolve( ca )
         print(ainv)
         
+        ainv <- cacheSolve( ca )
+        
         print("Matrix A")
         print(ca$get() )
         
