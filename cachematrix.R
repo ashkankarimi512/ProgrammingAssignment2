@@ -3,7 +3,7 @@
 ##
 ##
 ## function: makeCacheMatrix
-## This function returns a list of function used for caching a matrix
+## This function returns a list of functions used for caching a matrix
 ## and its inverse. 
 ## The returned list contains: set, get, setinvMat, getInvMat
 ##
